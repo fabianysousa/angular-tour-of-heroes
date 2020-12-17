@@ -3,6 +3,7 @@ import { Hero } from './hero';
 import { HEROES } from './mock-heroes';
 import { Observable, of } from 'rxjs';
 import { MessageService } from './message.service';
+import { promise } from 'protractor';
 
 @Injectable({
   providedIn: 'root'
@@ -17,10 +18,10 @@ getHeroes(): Observable<Hero[]> {
   return of(HEROES);
 }
 
-getHero(id: number): Observable<Hero> {
+getHero(id: number): Promise<Hero> {
   // TODO: send the message _after_ fetching the hero
   this.messageService.add(`HeroService: fetched hero id=${id}`);
-  return of(HEROES.find(hero => hero.id === id));
+  return HEROES.find(hero => hero.id === id);
 }
 
 }
