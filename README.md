@@ -41,7 +41,8 @@ No promit command:
     # Entrar no diretório
     $ cd angular-tour-of-heroes
     
-    # Baixar dependências npm install
+    # Baixar dependências
+    $ npm install
     
     # Rode o projeto
     $ ng serve
