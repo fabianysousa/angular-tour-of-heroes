@@ -1,27 +1,57 @@
-# AngularTourOfHeroes
+<h1 align="center"> Tuor of Heroes </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+---
 
-## Development server
+## 📑 Sobre
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Nesse repositório é colocado em prática o [Tutorial: Tour of Heroes](https://angular.io/tutorial) do Framework [**Angular**](https://angular.io/).
 
-## Code scaffolding
+### Foi ser aprendido:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [X] Usar diretivas Angular integradas para mostrar e ocultar elementos e exibir listas de dados de herói.
+- [X] Criar componentes angulares para exibir detalhes do herói e mostrar uma variedade de heróis.
+- [X] Usar a vinculação de dados unilateral para dados somente leitura.
+- [X] Adicionar campos editáveis para atualizar um modelo com vinculação de dados bidirecional.
+- [X] Vincular métodos de componentes a eventos do usuário, como pressionamentos de tecla e cliques.
+- [X] Permitir que os usuários selecionem um herói de uma lista mestre e editem esse herói na visualização de detalhes
+- [X] Formatar os dados com pipes.
+- [X] Criar um serviço compartilhado para reunir os heróis.
+- [X] Use o roteamento para navegar entre as diferentes vistas e seus componentes.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## ⚙️ Tecnologias utilizadas
 
-## Running unit tests
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ - [Angular](https://angular.io/)
+ 
+---
 
-## Running end-to-end tests
+## ☄️ Como baixar o projeto
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+No promit command:
 
-## Further help
+```bash
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    # Clonar o repositório
+    $ git clone https://github.com/fabianysousa/angular-tour-of-heroes
+
+
+    # Entrar no diretório
+    $ cd angular-tour-of-heroes
+    
+    # Baixar dependências npm install
+    
+    # Rode o projeto
+    $ ng serve
+
+```
+---
+## 💡 Insight
+
+Fazer esse tutorial me forneceu o entendimento dos fundamentos básicos do framework Angular, como componentes, serviços, SPA, pipes, rotas... 
+
+---
+
+Desenvolvido ❤️ por Fabiany de Sousa Costa
