@@ -6,7 +6,7 @@
 
 Nesse repositório é colocado em prática o [Tutorial: Tour of Heroes](https://angular.io/tutorial) do Framework [**Angular**](https://angular.io/).
 
-### Foi ser aprendido:
+### Deve ser aprendido:
 
 - [X] Usar diretivas Angular integradas para mostrar e ocultar elementos e exibir listas de dados de herói.
 - [X] Criar componentes angulares para exibir detalhes do herói e mostrar uma variedade de heróis.
